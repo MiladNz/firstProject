@@ -10,6 +10,12 @@ body {
     font-family: 'Lora', serif;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 .header {
     padding: 3em 0 5em;
     text-align: center;
@@ -194,6 +200,7 @@ body {
     margin-top: 8px;
     border: 1px solid #e47f0b;
     border-radius: 5px;
+    font: inherit;
 }
 
 .form-button{
@@ -203,4 +210,31 @@ body {
     background-color: #da8b67;
     color: #fff;
 
+}
+
+.hours{
+    width: 400px;
+    margin: 100px auto 0;
+    border: 2px solid #b2564c;
+    color: #000;
+    border-collapse: collapse;
+}
+
+.hours caption{
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.hours td,
+.hours th {
+    border: 1px solid #da8b67;
+    padding: 5px 10px;
+}
+
+.hours td {
+    text-align: center;
+}
+.hours tr:nth-child(odd){
+    background-color: #fcc586;
 }
