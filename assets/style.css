@@ -112,7 +112,22 @@ body {
     border-radius: 6px;
     border-style:solid;
     border-color: rgba(224, 175, 152, 0.945);
+    cursor: pointer;
 }
+
+.project img.active {
+    position: fixed;
+    width: 300px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: scale(2);
+}
+
+
+
 /* ////////////// */
 .socials{
     background-color: #39414c;
