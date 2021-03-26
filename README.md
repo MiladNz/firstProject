@@ -1,3 +1,2 @@
 # firstProject
- ** Simple Blog
- first experience of creating a website with Html, Css and Js.
+ first experience of creating a Simple website with Html, Css and Js.
